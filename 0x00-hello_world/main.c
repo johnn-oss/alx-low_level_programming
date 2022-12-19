@@ -5,7 +5,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
+	const char* myName() 
+	{
+		return "John";
+	}
+
+	printf("%s", myName());
 	return (0);
 }
